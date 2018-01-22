@@ -42,7 +42,7 @@ Game::Game(){
 void Game::solve(){
     currentSim=current->similarity(solution);
     for(int i=0;i<12;i++){
-        Board* board = Board::functions[i](current);
+        //Board* board = Board::functions[i](current);
         
     }
 }
